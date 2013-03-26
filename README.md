@@ -26,9 +26,9 @@ console.log(jp({
 [
   'header': '/headers/header1.html',
   'footer': '/footers/footer1.html',
-  'header-checkout': '/headers/header9.html',
-  'bool-foo-checkout': false,
-  'num-foo-checkout': 123,
-  'arr-foo-checkout': 'NOT SUPPORTED'
+  'checkout/header': '/headers/header9.html',
+  'checkout/foo/bool': false,
+  'checkout/foo/num': 123,
+  'checkout/foo/arr': 'NOT SUPPORTED'
 ]
 ```
